@@ -13,7 +13,7 @@ export async function GET() {
       imageUrl: "https://lure-tetra-mon.vercel.app/start-screen.png",
       imageAspectRatio: "1:1",
       buttons: [{ label: "Start Game", action: "post" }],
-      postUrl: "https://ttt-frame.vercel.app/api/game"
+      postUrl: "https://lure-tetra-mon.vercel.app/api/game"
     }
   });
 }

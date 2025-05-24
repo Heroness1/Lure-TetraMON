@@ -1,4 +1,4 @@
-import { setScore, getScore } from "@/lib/contract";
+import { setScore, getScore } from "../lib/contract";
 
 export async function POST(req: Request) {
   const body = await req.json();
@@ -12,11 +12,11 @@ export async function POST(req: Request) {
   return new Response(
     JSON.stringify({
       "@context": "https://w3id.org/farcaster/frames/v1.0.0",
-      "frame:image": `https://ttt-frame.vercel.app/api/og?wallet=${wallet}&score=${score}`,
+      "frame:image": `https://Tetra-MON.vercel.app/api/og?wallet=${wallet}&score=${score}`,
       "frame:buttons": [
         { label: "Play Again", action: "post" }
       ],
-      "frame:post_url": "https://ttt-frame.vercel.app/frame"
+      "frame:post_url": "https://Tetra-MON.vercel.app/frame"
     }),
     {
       headers: {

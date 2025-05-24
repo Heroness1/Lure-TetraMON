@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import NadShoott from '../components/NadShoott'
+import NadShoott from '../components/TetrisBoard'
 
 export default function Home() {
   return (
@@ -9,14 +9,14 @@ export default function Home() {
           name="fc:frame"
           content='{
             "version":"vNext",
-            "imageUrl":"https://ttt-frame.vercel.app/images/splash.png",
+            "imageUrl":"https://Lure-TetraMON.vercel.app/images/splash.png",
             "button":{"title":"Play"},
-            "postUrl":"https://ttt-frame.vercel.app/api/frame"
+            "postUrl":"https://Lure-TetraMON.vercel.app/api/frame"
           }'
         />
         <title>TetraMON</title>
       </Head>
-      <NadShoott />
+      <Lure />
     </>
   )
 }

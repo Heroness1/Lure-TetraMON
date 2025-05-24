@@ -1,4 +1,4 @@
-import { setScore, getScore } from "../lib/contract";
+import { setScore, getScore } from "@/lib/contract";
 
 export async function POST(req: Request) {
   const body = await req.json();

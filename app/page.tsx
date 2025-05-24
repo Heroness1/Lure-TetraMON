@@ -8,11 +8,10 @@ export const metadata = {
     title: "TetraMON",
     images: ["https://lure-tetra-mon.vercel.app/images/splash.png"],
   },
-  other: {
-    "fc:frame": "vNext",
-    "fc:frame:image": "https://lure-tetra-mon.vercel.app/images/splash.png",
-    "fc:frame:button:1": "Play",
-  },  
+  // Frame metadata at root level
+  "fc:frame": "vNext",
+  "fc:frame:image": "https://lure-tetra-mon.vercel.app/images/splash.png",
+  "fc:frame:button:1": "Play", 
 };  
 
 export default function GamePage() {

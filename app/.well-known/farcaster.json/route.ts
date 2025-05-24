@@ -3,21 +3,21 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   return NextResponse.json({
-    {
-  "accountAssociation": {
-    "header": "eyJmaWQiOjMzMjgwOSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDdhNTBCNGVjMjY0YTNjN2UzNGUxZWMyZUNjNTgyYWI0MjczZmNDZEEifQ",
-    "payload": "eyJkb21haW4iOiJsdXJlLXRldHJhLW1vbi52ZXJjZWwuYXBwIn0",
-    "signature": "MHgyMzg1MzRmYzRlMmQzYTBjMmZhY2M4NWY1YjZhMDU2NmVjZDk3Y2IwN2M5Y2QzYTYwNjMyMTZhYTFlYzk4NDE5NzIxMTdmNWMwN2M4Mjg1YjllZWRkYjgzM2I3OGQzNGUwMTIwMWM5ZGM3YWUyZjhkMmM3YTIyNGY5YmU2NTllZDFj"
-  },
-  "frame": {
-    "version": "1",
-    "name": "Example Frame",
-    "iconUrl": "https://lure-tetra-mon.vercel.app/icon.png",
-    "homeUrl": "https://lure-tetra-mon.vercel.app",
-    "imageUrl": "https://lure-tetra-mon.vercel.app/image.png",
-    "buttonTitle": "Check this out",
-    "splashImageUrl": "https://lure-tetra-mon.vercel.app/splash.png",
-    "splashBackgroundColor": "#eeccff",
-    "webhookUrl": "https://lure-tetra-mon.vercel.app/api/webhook"
-  }
+    accountAssociation: {
+      header: "eyJmaWQiOjMzMjgwOSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDdhNTBCNGVjMjY0YTNjN2UzNGUxZWMyZUNjNTgyYWI0MjczZmNDZEEifQ",
+      payload: "eyJkb21haW4iOiJsdXJlLXRldHJhLW1vbi52ZXJjZWwuYXBwIn0",
+      signature: "MHgyMzg1MzRmYzRlMmQzYTBjMmZhY2M4NWY1YjZhMDU2NmVjZDk3Y2IwN2M5Y2QzYTYwNjMyMTZhYTFlYzk4NDE5NzIxMTdmNWMwN2M4Mjg1YjllZWRkYjgzM2I3OGQzNGUwMTIwMWM5ZGM3YWUyZjhkMmM3YTIyNGY5YmU2NTllZDFj"
+    },
+    frame: {
+      version: "1",
+      name: "Example Frame",
+      iconUrl: "https://lure-tetra-mon.vercel.app/icon.png",
+      homeUrl: "https://lure-tetra-mon.vercel.app",
+      imageUrl: "https://lure-tetra-mon.vercel.app/image.png",
+      buttonTitle: "Check this out",
+      splashImageUrl: "https://lure-tetra-mon.vercel.app/splash.png",
+      splashBackgroundColor: "#eeccff",
+      webhookUrl: "https://lure-tetra-mon.vercel.app/api/webhook"
+    }
+  });
 }

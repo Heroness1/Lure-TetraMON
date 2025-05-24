@@ -4,15 +4,14 @@
     "payload": "eyJkb21haW4iOiJ0dHQtZnJhbWUudmVyY2VsLmFwcCJ9",
     "signature": "MHgxYjQzYzlhZTM5MzVmMDcwY2MzYWNjNGMxMWYyMDg5MjQ0MTI1MTFjNmNmMDM2NzNkZGM3N2FkZDI2ODI5ZDIyMWJmOGQ5MDlmN2UxNGU2MDNjNjE2MzMwMjI1ZDE5ODY4ODIxZGE3MjMzZDBlZjgwZjU1ZjZlNGNkZWM0NjA0YjFi"
   },
-  "frame": {
+   "frame": {
     "version": "1",
     "name": "TetraMON",
-    "iconUrl": "https://ttt-frame.vercel.app/icon.png",
-    "homeUrl": "https://ttt-frame.vercel.app",
-    "imageUrl": "https://ttt-frame.vercel.app/image.png",
+    "iconUrl": "https://lure-tetra-mon.vercel.app/icon.png",
+    "homeUrl": "https://lure-tetra-mon.vercel.app",
+    "imageUrl": "https://lure-tetra-mon.vercel.app/image.png",
     "buttonTitle": "Check this out",
-    "splashImageUrl": "https://ttt-frame.vercel.app/splash.png",
+    "splashImageUrl": "https://lure-tetra-mon.vercel.app/splash.png",
     "splashBackgroundColor": "#eeccff",
-    "webhookUrl": "https://ttt-frame.vercel.app/api/webhook"
-  }
+    "webhookUrl": "https://lure-tetra-mon.vercel.app/api/webhook"
 }
